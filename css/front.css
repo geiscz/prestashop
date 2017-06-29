@@ -25,3 +25,12 @@
 * Don't forget to prefix your containers with your own identifier
 * to avoid any conflicts with others containers.
 */
+
+@font-face {
+    font-family: geisFont; 
+    src: url("font/Roboto-Regular.ttf"); 
+}
+
+.geispointParentElement {
+    font-family: geisFont;
+}

@@ -1,3 +1,4 @@
+<?php
 /**
 * 2007-2014 PrestaShop
 *
@@ -21,7 +22,15 @@
 *  @copyright 2007-2014 PrestaShop SA
 *  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
-*
-* Don't forget to prefix your containers with your own identifier
-* to avoid any conflicts with others containers.
 */
+
+$sql = array();
+
+$sql[] = 'CREATE TABLE IF NOT EXISTS `'._DB_PREFIX_.'geispoint` (
+    `id_geispoint` int(11) NOT NULL AUTO_INCREMENT,
+    PRIMARY KEY  (`id_geispoint`)
+) ENGINE='._MYSQL_ENGINE_.' DEFAULT CHARSET=utf8;';
+
+foreach ($sql as $query)
+	if (Db::getInstance()->execute($query) == false)
+		return false;
