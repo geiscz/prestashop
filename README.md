@@ -4,9 +4,7 @@ verze 1.03
 
 Modul slouží pro zobrazení a výběr výdejních míst Geis Point v České republice přímo v košíku eshopu a pro export objednávek, které pak lze jednoduše naimportovat do systému Geis. Modul výdejních míst Geis Point na Slovensku je k dispozici <a href="http://github.com/geiscz/prestashop-sk">zde</a>
 
-<b>POZOR!!! Modul již není nadále vyvíjen a podporován společností Geis CZ.
-Další vývoj probíhá výhradně ze strany komunity.
-Modul nefunguje korektně se všemi verzemi PrestaShop.</b>
+<b>POZOR!!! Modul nefunguje korektně se všemi verzemi PrestaShop.</b>
 
 <b>Volba typu zobrazení výdejních míst:</b><ul>
 <li>Pouze výběrové pole – zákazník si vyhledá a vybere výdejní místo ze seznamu v textovém poli</li>
